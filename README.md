@@ -67,23 +67,24 @@ Here are some example figures that represent key results from the analysis:
 ### 1. **Liquidity Measures**
 This figure shows  the daily illiquidity estimates for three currency pairs (AUD/USD,USD/CAD,USD/JPY) from January 2008 to December 2009. To avoid the massive jumps, I plot a rolling average of liquidity measure sampled from every 5 days. The unit of measure is basis points. The value for USD/JPY has been divided by 10 for better display. The upper graph shows the quoted spread $IL^{s}$, the middle graph shows the effective spread $IL^{e}$, and the lower graph shows the price impact $IL^{p}$. All measures in all three pairs exhibit the similar time trend. The increase in FX illiquidity during the first quarter of 2008 was primarily caused by the collapse of Bear Stearns in March of that year. During the second quarter of 2008, liquidity began to increase again as investors believed that the worst of the crisis was over and started investing in the FX market once more. Additionally, central banks worldwide implemented policies to protect the financial system, which helped to boost liquidity. However, the last quarter of 2008 saw a significant increase in market illiquidity due to the collapse of Lehman Brothers, which triggered widespread uncertainty and turmoil in the financial markets. This decline in market liquidity the effects of the bankruptcy on market sentiment. In 2009, the market liquidity increased steadily and slowly as central banks continued to implement measures to stabilize the financial system and restore confidence in the markets. While there is a strong correlation in the movement of liquidity across different foreign exchange rates, the level of liquidity varies across the cross-section of rates. 
 
-<div align="center">
-![Liquidity Measures](pic/liquidity_measures.png)
-</div>
+<p align="center">
+  <img src="pic/liquidity_measures.png" alt="Liquidity Measures">
+</p>
 
 ### 2. **PCA Commonality**
 This figure plots  the proportion of variance explained by each principal component for each daily standardized liquidity measure. The gray part of the bar denotes the goodness of fit using the first principal component,  the pink part of the bar denotes increase in  the goodness of fit by including the second principal component, and the blue part of the bar denotes increase in  the goodness of fit by adding the third principal component. The first component explains between 66\% and 68\% of the variation, and this is slightly lower than the results from \cite{mancini2013liquidity}, probably because they fit the PCA with more exchange rates. 
 
-<div align="center">
-  ![PCA Commonality](pic/PCA_commonality.png)
-</div>
+<p align="center">
+  <img src="pic/PCA_commonality.png" alt="PCA Commonality">
+</p>
+
 
 ### 3. **Realized and Bipower Volatility**
  This figure shows time series of the realized volatility and jumps estimated in the paper for the period spanning January 2008 to December 2009, in standard deviation form. The topmost figure represents AUD/USD, followed by USD/CAD in the middle, and USD/JPY at the bottom.  These series exhibit a significant degree of autocorrelation, which is confirmed by the Ljung-Box statistics for up to tenth-order serial correlation reported in Table B2 in the paper. The autocorrelation for AUD/USD and USD/CAD is more prominent, and these series show a distinct pattern: higher during the financial crisis compared to the normal period. In contrast, USD/JPY does not show the same pattern, possibly due to data quality issues. 
 
-<div align="center">
-![Realized and Bipower Volatility](pic/realized_and_bipower_volatility.png)
-</div>
+<p align="center">
+  <img src="pic/realized_and_bipower_volatility.png" alt="Realized and Bipower Volatility">
+</p>
 
 
 ---
