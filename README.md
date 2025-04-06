@@ -1,6 +1,10 @@
-# High-Frequency FX Liquidity
+# 💱 High-Frequency FX Liquidity
+
+**Full Title**: *Commonality and Risk Drivers of Liquidity in the FX Market: Evidence from High-Frequency Data During the Global Financial Crisis*
 
 This repository contains the code and data for the assignment project in **Financial Markets 1 (IB9KA0)**, supervised by **Prof. Roman Kozhan**.
+
+---
 
 ## 🔍 Overview
 
@@ -34,6 +38,7 @@ This study evaluates the following hypotheses based on the theoretical framework
 - `data_analysis.ipynb`: Summary statistics, PCA, liquidity analysis, and funding constraints.
 - `jump_risk.ipynb`: Jump detection, Ljung-Box test, and assessment of jumps' impact on liquidity.
 - `data_cleaning.ipynb`: Preprocessing and cleaning of raw tick data.
+- `FM1.pdf`:  The assignment document with detailed analysis based on the code
 - `/pic/`: Contains main figure outputs for the paper/project.
 - `/data/`: Includes the cleaned and processed datasets used in the analysis.
 
