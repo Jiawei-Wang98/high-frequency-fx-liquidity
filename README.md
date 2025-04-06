@@ -59,6 +59,28 @@ Each order in the tick dataset includes:
 - Best bid and ask quotes
 - Timestamps with 1/100 second precision
 
+
+## 📸 Example Figures
+
+Here are some example figures that represent key results from the analysis:
+
+### 1. **Liquidity Measures**
+This figure shows the liquidity measures (such as bid-ask spread and effective spread) over time for the selected FX pairs.
+
+![Liquidity Measures](pic/liquidity_measures.png)
+
+### 2. **PCA Commonality**
+This figure shows the commonality in FX market liquidity extracted using Principal Component Analysis (PCA). It highlights how liquidity across different currency pairs tends to move together during the financial crisis.
+
+![PCA Commonality](pic/PCA_commonality.png)
+
+### 3. **Realized and Bipower Volatility**
+This figure compares the realized volatility and bipower variation, showing how these measures help identify market stress and liquidity changes.
+
+![Realized and Bipower Volatility](pic/realized_and_bipower_volatility.png)
+
+
+
 ---
 
 ## 📚 References
