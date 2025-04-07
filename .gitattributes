@@ -1,1 +1,5 @@
+# Recognize .ipydb files as Python
 *.ipydb linguist-language=Python
+
+# Ignore Jupyter Notebook files from language statistics
+*.ipynb linguist-documentation
